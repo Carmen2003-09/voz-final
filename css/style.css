@@ -1,0 +1,48 @@
+/* Importar Google Fonts para un estilo futurista */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+body {
+    background-color: #0a0a0a;
+    color: #00e1ff;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00e1ff;
+}
+
+.btn-custom {
+    background-color: #00e1ff;
+    color: #0a0a0a;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 0 15px rgba(0, 225, 255, 0.7);
+}
+
+.btn-custom:hover {
+    background-color: #0088aa;
+    box-shadow: 0 0 20px rgba(0, 225, 255, 1);
+}
+
+#outputText {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 225, 255, 0.5);
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1rem;
+    color: #ccc;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
